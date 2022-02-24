@@ -1,0 +1,50 @@
+body{
+    background-color: #fff;
+    height:120vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    place-items: center center;
+    color: #fff;
+    font-size: 40px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  input{
+    flex: 0 1 2rem;
+    width: 13rem;
+  }
+  
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    font-size: 40px;
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content span {
+    width: 40px;
+    display: inline-block;
+}
+img{
+  height: 300px;
+  width: 300px;
+}
+
